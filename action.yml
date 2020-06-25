@@ -21,4 +21,5 @@ inputs:
     required: false
 runs:
   using: 'node12'
+  pre: 'scripts/setup.sh'
   main: 'dist/index.js'

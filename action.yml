@@ -1,8 +1,8 @@
 name: 'maven-settings-temporary'
 description: 'Create maven settings (~/.m2/settings.xml)'
 branding:
-  icon: feather
-  color: orange
+  icon: trash
+  color: green
 inputs:
   servers:
     description: 'json array of servers to add to settings.xml'

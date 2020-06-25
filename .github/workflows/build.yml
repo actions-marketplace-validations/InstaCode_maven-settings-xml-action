@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.1
       - name: Create maven settings.xml
-        uses: ./action.yml
+        uses: ./
         with:
           servers: '[{"id": "foo", "username": "fu", "password": "bar" }]'
           mirrors: '[{ "id": "nexus", "mirrorOf": "!my-org-snapshots,*", "url": "http://redacted/nexus/content/groups/public" }]'
